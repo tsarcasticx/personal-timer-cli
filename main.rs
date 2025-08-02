@@ -34,9 +34,3 @@ fn main() {
         spawn().expect("could not run the command");
     println!("\n\n\nYou've reached {detiks} seconds\n\n");
 }
-
-#[test]
-fn testin() {
-    let disini = env::current_exe();
-    println!("saya berada di direktori {}",disini.unwrap().display());
-}
