@@ -1,5 +1,14 @@
-use std::{io::{self, Write}, process::{exit, Command}, thread::sleep, time::Duration, u64, env};
+use std::{env::{self}, io::{self, Write}, process::{exit, Command}, thread::sleep, time::Duration, u64};
 
+
+fn responduser(msg: &str) -> String {
+    print!("{msg}") ;
+    let mut input = String::new();
+    io::stdout().flush().unwrap();
+    io::stdin().read_line(&mut input).unwrap();
+    let throw = input.trim();
+    return throw.to_string();
+}
 fn check_err_int(msg: &str) -> Result<u64, &str>{
     print!("{msg}");
     let mut _data_entered = String::new();
@@ -24,13 +33,26 @@ fn durasi(msg: &str) -> u64{
 }
 
 fn main() {
-    let current_dir = env::current_dir();
-    let detiks = durasi("Enter the duration in second: ");
-    let _jeda = Duration::from_secs(detiks);
+    let alrdir = env::current_exe();
+    let options = responduser("What time would you want to set? \n [1] Second\n [2] Minute\n [3] Hour \nEnter the options: ");
+    let optionstr: &str = options.as_str();
+
+    let duration: u64;
+    let _jeda;
+    match optionstr {
+        "1" => {duration = durasi("Enter the duration in second: ");
+        _jeda = Duration::from_secs(duration)},
+        "2" => {duration = durasi("Enter the duration in minute: ");
+        _jeda = Duration::from_secs(duration * 60)},
+        "3" => {duration = durasi("Enter the duration in hour: ");
+        _jeda = Duration::from_secs(duration * 3600)},
+        _ => {eprintln!("You must choose one of them by entering the options");
+            exit(1)},
+    }
+
     sleep(_jeda);
-    // let _alarm = Command::new("mpv")
-    let _notification = Command::new("notify-send").args(["󰔛 Time's up", format!("You've reached {detiks} seconds").as_str()]).spawn().expect("could not run the command");
-    let _alarm = Command::new("nohup").args(["mpv", format!("{}/alarm.wav",current_dir.expect("the file must be the same as executable's directory").display()).as_str(), ">", "/dev/null", "2>&1", "&"]).
+    let _notification = Command::new("notify-send").args(["󰔛 Time's up", &format!("You've reached {duration} seconds")]).spawn().expect("could not run the command");
+    let _alarm = Command::new("nohup").args(["mpv", format!("{}/alarm.wav",alrdir.expect("the file must be the same as executable's directory").display()).as_str(), ">", "/dev/null", "2>&1", "&"]).
         spawn().expect("could not run the command");
-    println!("\n\n\nYou've reached {detiks} seconds\n\n");
+    println!("\n\n\nYou've reached {duration} seconds\n\n");
 }

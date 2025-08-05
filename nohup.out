@@ -1,0 +1,146 @@
+Playing: /home/astesia/Others/git/personal-timer-cli/alarm.wav
+ ● Audio  --aid=1  (pcm_s16le 2ch 48000 Hz 1536 kbps)
+AO: [pipewire] 48000Hz stereo 2ch s16
+A: 00:00:00 / 00:00:04 (0%)
+A: 00:00:00 / 00:00:04 (1%)
+A: 00:00:00 / 00:00:04 (3%)
+A: 00:00:00 / 00:00:04 (5%)
+A: 00:00:00 / 00:00:04 (8%)
+A: 00:00:00 / 00:00:04 (10%)
+A: 00:00:00 / 00:00:04 (11%)
+A: 00:00:00 / 00:00:04 (14%)
+A: 00:00:00 / 00:00:04 (16%)
+A: 00:00:00 / 00:00:04 (17%)
+A: 00:00:00 / 00:00:04 (20%)
+A: 00:00:00 / 00:00:04 (22%)
+A: 00:00:00 / 00:00:04 (24%)
+A: 00:00:01 / 00:00:04 (27%)
+A: 00:00:01 / 00:00:04 (29%)
+A: 00:00:01 / 00:00:04 (30%)
+A: 00:00:01 / 00:00:04 (33%)
+A: 00:00:01 / 00:00:04 (35%)
+A: 00:00:01 / 00:00:04 (36%)
+A: 00:00:01 / 00:00:04 (39%)
+A: 00:00:01 / 00:00:04 (41%)
+A: 00:00:01 / 00:00:04 (43%)
+A: 00:00:01 / 00:00:04 (46%)
+A: 00:00:01 / 00:00:04 (48%)
+A: 00:00:01 / 00:00:04 (49%)
+A: 00:00:02 / 00:00:04 (52%)
+A: 00:00:02 / 00:00:04 (54%)
+A: 00:00:02 / 00:00:04 (55%)
+A: 00:00:02 / 00:00:04 (58%)
+A: 00:00:02 / 00:00:04 (60%)
+A: 00:00:02 / 00:00:04 (62%)
+A: 00:00:02 / 00:00:04 (65%)
+A: 00:00:02 / 00:00:04 (67%)
+A: 00:00:02 / 00:00:04 (68%)
+[file] Cannot open file '>': No such file or directory
+A: 00:00:02 / 00:00:04 (68%)
+Failed to open >.
+A: 00:00:02 / 00:00:04 (68%)
+A: 00:00:02 / 00:00:04 (71%)
+A: 00:00:02 / 00:00:04 (73%)
+A: 00:00:03 / 00:00:04 (75%)
+A: 00:00:03 / 00:00:04 (77%)
+A: 00:00:03 / 00:00:04 (79%)
+A: 00:00:03 / 00:00:04 (82%)
+A: 00:00:03 / 00:00:04 (84%)
+A: 00:00:03 / 00:00:04 (86%)
+A: 00:00:03 / 00:00:04 (88%)
+A: 00:00:03 / 00:00:04 (90%)
+A: 00:00:03 / 00:00:04 (92%)
+A: 00:00:03 / 00:00:04 (94%)
+Playing: >
+[file] Cannot open file '>': No such file or directory
+Failed to open >.
+Playing: /dev/null
+Failed to recognize file format.
+Playing: 2>&1
+[file] Cannot open file '2>&1': No such file or directory
+Failed to open 2>&1.
+Playing: &
+[file] Cannot open file '&': No such file or directory
+Failed to open &.
+Exiting... (Some errors happened)
+Playing: /home/astesia/Others/git/personal-timer-cli/alarm.wav
+ ● Audio  --aid=1  (pcm_s16le 2ch 48000 Hz 1536 kbps)
+AO: [pipewire] 48000Hz stereo 2ch s16
+A: 00:00:00 / 00:00:04 (0%)
+A: 00:00:00 / 00:00:04 (1%)
+A: 00:00:00 / 00:00:04 (3%)
+A: 00:00:00 / 00:00:04 (5%)
+A: 00:00:00 / 00:00:04 (6%)
+A: 00:00:00 / 00:00:04 (8%)
+A: 00:00:00 / 00:00:04 (10%)
+A: 00:00:00 / 00:00:04 (12%)
+A: 00:00:00 / 00:00:04 (13%)
+A: 00:00:00 / 00:00:04 (16%)
+A: 00:00:00 / 00:00:04 (18%)
+A: 00:00:00 / 00:00:04 (19%)
+A: 00:00:00 / 00:00:04 (22%)
+A: 00:00:00 / 00:00:04 (24%)
+A: 00:00:01 / 00:00:04 (27%)
+A: 00:00:01 / 00:00:04 (28%)
+A: 00:00:01 / 00:00:04 (31%)
+A: 00:00:01 / 00:00:04 (33%)
+A: 00:00:01 / 00:00:04 (35%)
+A: 00:00:01 / 00:00:04 (36%)
+A: 00:00:01 / 00:00:04 (39%)
+A: 00:00:01 / 00:00:04 (41%)
+A: 00:00:01 / 00:00:04 (44%)
+A: 00:00:01 / 00:00:04 (45%)
+A: 00:00:01 / 00:00:04 (48%)
+A: 00:00:02 / 00:00:04 (50%)
+A: 00:00:02 / 00:00:04 (52%)
+A: 00:00:02 / 00:00:04 (53%)
+A: 00:00:02 / 00:00:04 (56%)
+A: 00:00:02 / 00:00:04 (58%)
+A: 00:00:02 / 00:00:04 (59%)
+A: 00:00:02 / 00:00:04 (63%)
+A: 00:00:02 / 00:00:04 (65%)
+A: 00:00:02 / 00:00:04 (66%)
+A: 00:00:02 / 00:00:04 (69%)
+[file] Cannot open file '>': No such file or directory
+A: 00:00:02 / 00:00:04 (69%)
+Failed to open >.
+A: 00:00:02 / 00:00:04 (69%)
+A: 00:00:02 / 00:00:04 (71%)
+A: 00:00:02 / 00:00:04 (73%)
+A: 00:00:03 / 00:00:04 (75%)
+A: 00:00:03 / 00:00:04 (77%)
+A: 00:00:03 / 00:00:04 (79%)
+A: 00:00:03 / 00:00:04 (82%)
+A: 00:00:03 / 00:00:04 (84%)
+A: 00:00:03 / 00:00:04 (86%)
+A: 00:00:03 / 00:00:04 (88%)
+A: 00:00:03 / 00:00:04 (90%)
+A: 00:00:03 / 00:00:04 (92%)
+A: 00:00:03 / 00:00:04 (94%)
+Playing: >
+[file] Cannot open file '>': No such file or directory
+Failed to open >.
+Playing: /dev/null
+Failed to recognize file format.
+Playing: 2>&1
+[file] Cannot open file '2>&1': No such file or directory
+Failed to open 2>&1.
+Playing: &
+[file] Cannot open file '&': No such file or directory
+Failed to open &.
+Exiting... (Some errors happened)
+Playing: /home/astesia/Others/git/personal-timer-cli/target/debug/timer-cli/alarm.wav
+[file] Cannot open file '/home/astesia/Others/git/personal-timer-cli/target/debug/timer-cli/alarm.wav': Not a directory
+Failed to open /home/astesia/Others/git/personal-timer-cli/target/debug/timer-cli/alarm.wav.
+Playing: >
+[file] Cannot open file '>': No such file or directory
+Failed to open >.
+Playing: /dev/null
+Failed to recognize file format.
+Playing: 2>&1
+[file] Cannot open file '2>&1': No such file or directory
+Failed to open 2>&1.
+Playing: &
+[file] Cannot open file '&': No such file or directory
+Failed to open &.
+Exiting... (Errors when loading file)
