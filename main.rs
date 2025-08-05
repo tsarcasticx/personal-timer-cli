@@ -1,4 +1,4 @@
-use std::{env::{self}, io::{self, Write}, process::{exit, Command}, thread::sleep, time::Duration, u64};
+use std::{env::{self}, io::{self, Write}, process::{exit, Command, Stdio}, thread::sleep, time::Duration, u64};
 
 
 fn responduser(msg: &str) -> String {
@@ -52,7 +52,11 @@ fn main() {
 
     sleep(_jeda);
     let _notification = Command::new("notify-send").args(["󰔛 Time's up", &format!("You've reached {duration} seconds")]).spawn().expect("could not run the command");
-    let _alarm = Command::new("nohup").args(["mpv", format!("{}/alarm.wav",alrdir.expect("the file must be the same as executable's directory").display()).as_str(), ">", "/dev/null", "2>&1", "&"]).
-        spawn().expect("could not run the command");
+    let _alarm = Command::new("mpv")
+                .stdin(Stdio::null())
+                .stdout(Stdio::null())
+                .arg(format!("{}/alarm.wav", alrdir.expect("the file must be the same as executable's directory").display()).as_str())
+                .spawn()
+                .expect("could not run the command");
     println!("\n\n\nYou've reached {duration} seconds\n\n");
 }
